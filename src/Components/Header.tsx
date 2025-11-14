@@ -2,7 +2,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function Header () {  
     return (
       <header className="header">
-        <div className="logo">Logo</div>
+        <div className="logo"><i class="fa-solid fa-bars fa-xl" style="color: #B197FC;"></i></div>
         <nav className="nav">
           <a href="#home">Home</a>
           <a href="#about">About</a>
