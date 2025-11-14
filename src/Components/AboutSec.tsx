@@ -2,10 +2,11 @@ function AboutSec() {
     return (
       <section className="about-section" id="about">
         <div className="about-content">
-            <img src="" alt=""/></div>
+            <img src="" alt="" />
             <div className="about-text">
                 <h2>About Us</h2>
-                <p>We are dedicated to transforming health systems to be resilient in the face of climate change. Our mission is to integrate climate adaptation strategies into healthcare infrastructure, policies, and practices to ensure sustainable and effective health services for all communities.</p>
+                <p>At TINKAS, we believe healthcare must adapt to the challenges of our time. Our story began with a vision to reform healthcare delivery while recognizing the urgent role of climate change and technology in shaping health outcomes. We are committed to excellence, innovation, equity, sustainability, and collaboration.</p>
+            </div>
             </div>
       </section>
     );
