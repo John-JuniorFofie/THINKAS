@@ -57,14 +57,28 @@
 .cta-button:hover{
     background-color: #012D2A;
 }
-.about-content{
-    width: 80%;
-    height: 300px;
+.about-section{
+    width: 70%;
+    height: 70vh;
     background-color:#08726e3c ;
+    display: flex;
     border-radius: 10px;
     display: flex;
     justify-self: center;
     margin-top: 50px;
+    /* justify-content: space-evenly; */
+}
+.about-content{
+    display: flex;
+    /* align-items: center; */
+    justify-content:center;
+    gap: 40px;
+}
+.image img{
+    width:1000px;
+    height: 400px;
+    border-radius: 10px;
+   
 }
 .about-text{
     color: black;
