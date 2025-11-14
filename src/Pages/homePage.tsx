@@ -4,6 +4,7 @@ import AboutSec from '../Components/AboutSec';
 import Partners from '../Components/partners';
 import Projects from '../Components/projects';
 import Latest from '../Components/latest';
+import Blog from '../Components/blog';
 function Homepage() {
   return (
     <div>
@@ -13,6 +14,7 @@ function Homepage() {
         <Partners />
         <Projects />
         <Latest />
+        <Blog />
     </div>
   );
 }

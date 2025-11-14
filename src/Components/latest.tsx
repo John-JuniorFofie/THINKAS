@@ -1,5 +1,5 @@
 import { FiArrowRightCircle } from "react-icons/fi";
-import { FiArrowLeftCircle } from "react-icons/fi";
+// import { FiArrowLeftCircle } from "react-icons/fi";
 
 function Latest() { 
     return(

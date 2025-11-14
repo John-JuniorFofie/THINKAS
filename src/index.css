@@ -35,8 +35,12 @@ body{
     height: 100vh;
 }
 .hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
     padding-left: 80px;
-    padding-top: 200px;
 }
 .hero h1{
     color: white;
@@ -196,6 +200,39 @@ body{
     gap: 10px;  
     color:#0C7412;
 }
-.latest-item1{
-   
+.Blog-section{
+    margin-top:20vh;
+    h1{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-top: 40px;
+        color:#01413F;
+        line-height: 30px;
+    }
+}
+.blog-cards{
+ display: flex;
+ justify-content:center;
+ gap:30px;
+}
+.child{
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width:auto;
+    height:auto;
+    margin-top: 30px;
+
+    img{
+        width: 280px;
+        height: 200px;
+        border-radius: 10px 10px 0px 0px;
+        margin-top: 10px;
+    }
+    p{
+        font-weight: 500;
+        margin: 10px;
+        text-align:center;
+    }
 }
